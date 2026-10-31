@@ -1,0 +1,313 @@
+<!--#def sb--><div class="sb"><span>9:41</span><span class="sbi"><svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg viewBox="0 0 16 12"><path d="M8 2.6c2.3 0 4.4.9 6 2.4l1.2-1.3A10.2 10.2 0 0 0 8 .8C5.2.8 2.7 1.9.8 3.7L2 5c1.6-1.5 3.7-2.4 6-2.4Zm0 3.6c1.3 0 2.5.5 3.4 1.3l1.2-1.3A6.7 6.7 0 0 0 8 4.4c-1.8 0-3.4.7-4.6 1.8l1.2 1.3c.9-.8 2.1-1.3 3.4-1.3Zm0 3.5c.5 0 1 .2 1.3.5L8 11.6 6.7 10.2c.3-.3.8-.5 1.3-.5Z"/></svg><svg viewBox="0 0 27 13"><rect x=".5" y=".5" width="23" height="12" rx="3.5" fill="none" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="20" height="9" rx="2"/><path d="M25 4.5v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" opacity=".4"/></svg></span></div><!--#end-->
+<!--#def stories--><div class="stories">
+<div class="story"><div class="ring"><img src="assets/av-alex.jpg" alt=""><span class="bub">{{i:comment}}</span></div><span>Alex</span></div>
+<div class="story"><div class="ring"><img src="assets/av-ellie.jpg" alt=""><span class="bub">{{i:comment}}</span></div><span>Ellie</span></div>
+<div class="story"><div class="ring"><img src="assets/av-adam.jpg" alt=""><span class="bub">{{i:comment}}</span></div><span>Adam</span></div>
+<div class="story"><div class="ring"><img src="assets/av-sofia.jpg" alt=""><span class="bub">{{i:comment}}</span></div><span>Sofia</span></div>
+<div class="story"><div class="ring"><img src="assets/av-lucas.jpg" alt=""><span class="bub">{{i:comment}}</span></div><span>Lucas</span></div>
+</div><!--#end-->
+<!--#def search--><div class="sfloat">{{i:search}}Search for friends, events, ...</div><!--#end-->
+<!--#def nav-home--><div class="bnav"><span class="on">{{i:house}}Home</span><span>{{i:users}}Friends</span><span>{{i:ticket}}My Events</span><span>{{i:bell}}Alerts</span><span>{{i:circle-user}}My Profile</span></div><div class="home-ind"></div><!--#end-->
+<!--#def scr-map-body-->{{use:sb}}{{use:stories}}
+<div class="ctrl"><div class="seg"><span>{{i:list}}</span><span class="on">{{i:map}}Map</span></div><div class="chips"><span class="chip on">{{i:pin}}Birmingham{{i:circle-x}}</span><span class="chip">{{i:filter}}Filter</span></div></div>
+<div class="tabs"><span class="on">Venues</span><span>Events</span></div>
+<div class="map"><div class="mapimg"></div>
+<span class="vpin" style="left:108px;top:52px;--i:0"><svg class="vm"><use href="#vmark"/></svg>{{i:v-nightclub}}</span>
+<span class="vpin b" style="left:258px;top:58px;--i:1"><svg class="vm"><use href="#vmark"/></svg>{{i:v-live-sport}}</span>
+<span class="vpin b" style="left:26px;top:92px;--i:2"><svg class="vm"><use href="#vmark"/></svg>{{i:v-live-sport}}</span>
+<span class="vpin" style="left:278px;top:120px;--i:3"><svg class="vm"><use href="#vmark"/></svg>{{i:v-nightclub}}</span>
+<span class="vpin b" style="left:122px;top:166px;--i:4"><svg class="vm"><use href="#vmark"/></svg>{{i:v-pub}}</span>
+<span class="vpin g" style="left:216px;top:182px;--i:5"><svg class="vm"><use href="#vmark"/></svg>{{i:v-coctail-bar}}</span>
+<span class="vpin g" style="left:42px;top:246px;--i:6"><svg class="vm"><use href="#vmark"/></svg>{{i:v-coctail-bar}}</span>
+<span class="vpin g" style="left:270px;top:262px;--i:7"><svg class="vm"><use href="#vmark"/></svg>{{i:v-coctail-bar}}</span>
+<span class="vpin" style="left:274px;top:386px;--i:8"><svg class="vm"><use href="#vmark"/></svg>{{i:v-nightclub}}</span>
+<span class="vpin" style="left:46px;top:404px;--i:9"><svg class="vm"><use href="#vmark"/></svg>{{i:v-nightclub}}</span>
+<span class="fav" style="left:330px;top:40px;--i:3"><img src="assets/av-adam.jpg" alt=""></span>
+<span class="fav" style="left:107px;top:99px;--i:5"><img src="assets/av-sofia.jpg" alt=""></span>
+<span class="fav" style="left:36px;top:162px;--i:6"><img src="assets/av-lucas.jpg" alt=""></span>
+<span class="fav" style="left:307px;top:194px;--i:7"><img src="assets/av-jane.jpg" alt=""></span>
+<span class="fav" style="left:46px;top:332px;--i:8"><img src="assets/av-john.jpg" alt=""></span>
+<span class="fav" style="left:340px;top:380px;--i:9"><img src="assets/av-michael.jpg" alt=""></span>
+<span class="me" style="left:174px;top:252px;--i:2"><img src="assets/av-ellie.jpg" alt=""></span>
+</div>{{use:search}}{{use:nav-home}}<!--#end-->
+<!--#def scr-venue-body-->{{use:sb:lt}}<img class="vhead" src="assets/gja-header.jpg" alt="">
+<div class="vscroll">
+<div class="vbody"><h3>The Grand Junction Arms</h3><p class="about">About The Grand Junction Arms:</p><p>A proper local with craft ales on tap, big-screen football and a beer garden that fills up fast on match days.</p>
+<img class="minimap" src="assets/minimap.jpg" alt="">
+<div class="rate"><b>4.9</b>Reviewed by 1956 people<span class="stars">{{i:star}}{{i:star}}{{i:star}}{{i:star}}{{i:star-o}}</span></div></div>
+<div class="sect"><div class="sect-h"><div><h5>Events being hosted</h5><small>5 events this week 🔥</small></div><span class="pbtn">{{i:calendar}}View Event Calendar</span></div>
+<div class="ecard"><img class="th" src="assets/football.jpg" alt=""><div class="inf"><h4>Premier league - Liverpool V Brighton</h4><div class="addr">{{i:pin}}@TheGrandArms</div><div class="addr">{{i:calendar}}Sat 7th, 12:30pm-2:30pm</div><div class="att"><span class="st"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-lucas.jpg" alt=""></span>2 Friends are attending</div></div>{{i:heart:hrt}}</div>
+<div class="ecard"><img class="th" src="assets/crowd.jpg" alt=""><div class="inf"><h4>Friday Live Band Night</h4><div class="addr">{{i:pin}}@TheGrandArms</div><div class="addr">{{i:calendar}}Fri 6th, 8:00pm-11:30pm</div><div class="att"><span class="st"><img src="assets/av-ellie.jpg" alt=""><img src="assets/av-adam.jpg" alt=""></span>4 Friends are attending</div></div>{{i:heart:hrt}}</div>
+<div class="ecard"><img class="th" src="assets/restaurant.jpg" alt=""><div class="inf"><h4>Sunday Roast Club</h4><div class="addr">{{i:pin}}@TheGrandArms</div><div class="addr">{{i:calendar}}Sun 8th, 1:00pm-4:00pm</div></div>{{i:heart:hrt}}</div>
+</div></div><!--#end-->
+
+<header class="nav" id="nav">
+  <a class="brand" href="#" aria-label="Venu home" data-home><svg viewBox="-1 0 139 24"><use href="#logo"/></svg><span class="dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></a>
+  <div class="toggle" role="tablist" aria-label="Audience">
+    <span class="knob" aria-hidden="true"></span>
+    <button role="tab" id="tab-users" aria-selected="true" aria-controls="users">For Users</button>
+    <button role="tab" id="tab-biz" aria-selected="false" aria-controls="biz">For Businesses</button>
+  </div>
+  <a class="btn btn-p cta" href="#download" id="navcta">Download App</a>
+</header>
+
+<main id="users" class="view" role="tabpanel" aria-labelledby="tab-users">
+  <section class="journey" id="journey" aria-label="How Venu works">
+    <div class="stage" id="stage">
+      <div class="glow" aria-hidden="true"></div>
+      <div class="hero-copy" id="heroCopy">
+        <span class="ticker">{{i:pin}}Tonight near you<span class="ticker-win" id="ticker">
+          <span>{{i:v-live-music}}Live Music</span><span>{{i:v-comedy}}Comedy</span><span>{{i:v-trivia}}Quiz Night</span><span>{{i:v-live-sport}}Live Sport</span><span>{{i:v-happy-hour}}Happy Hour</span><span>{{i:v-karaoke}}Karaoke</span></span></span>
+        <h1 class="h1 gt">Find out what to do wherever you go</h1>
+        <p class="lead">Discover exciting events, vibrant venues and thriving communities near you. Venu gives you personalized, location-based recommendations that bring fun to your fingertips.</p>
+        <div class="hero-ctas"><a class="btn btn-p" href="#download">Download App</a><a class="btn btn-g" href="#how" data-jump="0">See how it works {{i:chev-left:dn}}</a></div>
+      </div>
+
+      <div class="phone phone-back" id="phoneBack" aria-hidden="true"><div class="glass"><div class="island"></div><div class="cv"><div class="scr static">{{use:scr-map-body}}</div></div></div></div>
+
+      <div class="phone phone-main" id="phone" role="img" aria-label="The Venu app, changing screen as you scroll">
+        <div class="glass"><div class="island"></div><div class="cv" id="cv">
+          <!-- 1 · home list -->
+          <div class="scr is-active" data-s="0">{{use:sb}}{{use:stories}}
+            <div class="ctrl"><div class="seg"><span class="on">{{i:list}}List</span><span>{{i:map}}</span></div><div class="chips"><span class="chip">{{i:pin}}Location</span><span class="chip">{{i:filter}}Filter</span></div></div>
+            <div class="tabs"><span class="on">Venues</span><span>Events</span><span>Communities</span></div>
+            <div class="feed" id="feed">
+              <div class="vcard"><img class="ph" src="assets/bar.jpg" alt=""><div class="meta"><h4>Live Jazz at Rouge</h4><div class="addr">{{i:pin}}40 Floral Street, London, UK</div><span class="tag">Bar</span></div></div>
+              <div class="vcard"><img class="ph tall" src="assets/football.jpg" alt=""><div class="meta"><h4>The Grand Junction Arms</h4><div class="addr">{{i:pin}}5th Ave N, Birmingham, UK</div><span class="tag">Sport Bar</span></div></div>
+              <div class="vcard"><img class="ph" src="assets/club.jpg" alt=""><div class="meta"><h4>The Eclipse Club</h4><div class="addr">{{i:pin}}12 Broad Street, Birmingham, UK</div><span class="tag">Nightclub</span></div></div>
+              <div class="vcard"><img class="ph" src="assets/restaurant.jpg" alt=""><div class="meta"><h4>Echo Net Kitchen</h4><div class="addr">{{i:pin}}Canal Side, Birmingham, UK</div><span class="tag">Restaurant</span></div></div>
+            </div>{{use:search}}{{use:nav-home}}
+          </div>
+          <!-- 2 · map -->
+          <div class="scr" data-s="1">{{use:scr-map-body}}</div>
+          <!-- 3 · venue -->
+          <div class="scr" data-s="2">{{use:scr-venue-body}}</div>
+          <!-- 4 · event + invite -->
+          <div class="scr" data-s="3">
+            <div class="ehead"><img src="assets/club.jpg" alt="">{{use:sb:lt}}<div class="etop">{{i:chev-left}}The Eclipse Club</div>
+              <div class="etitle"><h3>The Eclipse Club {{i:heart}}</h3><div class="tagrow"><span class="tag">Clubbing</span><span class="tag">Live Music</span></div></div>
+              <div class="going"><span class="st"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-lucas.jpg" alt=""></span><span><b>Alex</b> and 2 others are going!</span><span class="gi">{{i:badge-check}}</span></div>
+            </div>
+            <div class="ebody">
+              <div class="ibox"><span class="lb">{{i:calendar}}DATE</span><span class="vl">18/08/2024</span></div>
+              <div class="ibox"><span class="lb">{{i:clock}}TIME</span><span class="vl">9:00 PM - 2:00 AM</span></div>
+              <div class="ibox wide"><div style="display:flex;flex-direction:column;gap:8px"><span class="lb">{{i:pin}}VENUE DETAILS</span><span class="vl">@TheEclipseClub</span></div><div style="display:flex;align-items:center;gap:12px"><span class="gja">THE<br>ECLIPSE<br>CLUB</span>{{i:chev-left:chev}}</div></div>
+              <div class="edesc"><small>Event description:</small><p>Resident DJs, a live band from 10pm and a dance floor that doesn't quit. Doors open at 9.</p><b>More</b></div>
+            </div>
+            <div class="ebar"><span class="attend" id="attend">{{i:badge-check}}<span>Attend</span></span><span class="inv">{{i:user-plus}}</span></div>
+            <div class="dim"></div>
+            <div class="sheet"><div class="sheet-h"><span>Invite Friends</span>{{i:close}}</div><div class="sfield">{{i:search}}Search for friends</div>
+              <div class="frow"><img src="assets/av-john.jpg" alt="">John Doe<span class="ck">{{i:badge-check}}</span></div>
+              <div class="frow"><img src="assets/av-jane2x.jpg" alt="">Jane Smith<span class="ck">{{i:badge-check}}</span></div>
+              <div class="frow"><img src="assets/av-alice.jpg" alt="">Alice Johnson<span class="ck">{{i:badge-check}}</span></div>
+              <div class="frow"><img src="assets/av-maya.jpg" alt="">Maya Lewis<span class="ck">{{i:badge-check}}</span></div>
+              <div class="frow"><img src="assets/av-emily.jpg" alt="">Emily Johnson<span class="ck">{{i:badge-check}}</span></div>
+              <div class="frow"><img src="assets/av-michael.jpg" alt="">Michael Brown<span class="ck">{{i:badge-check}}</span></div>
+              <div class="sheet-f"><span>{{i:copy}}Copy Link</span><span class="p">{{i:share}}Share Link</span></div>
+            </div>
+          </div>
+          <!-- 5 · my events -->
+          <div class="scr" data-s="4">{{use:sb}}
+            <div class="tabs"><span class="on">Attending</span><span>Liked</span></div>
+            <div class="mlist" id="mlist">
+              <div class="mcard"><div class="im"><img class="ph" src="assets/club.jpg" alt=""><div class="going"><span class="st"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-john.jpg" alt=""></span><span><b>Alex</b> and 5 others are going!</span><span class="gi">{{i:badge-check}}</span></div></div>
+                <div class="meta"><h4>The Eclipse Club {{i:heart-fill:hf}}</h4><div class="addr">{{i:pin}}@TheEclipseClub</div><div class="addr">{{i:calendar}}Sat 18th, 9:00pm-2:00am</div><div class="tagrow"><span class="tag">Clubbing</span><span class="tag">Live Music</span></div></div></div>
+              <div class="mcard"><div class="im"><img class="ph" src="assets/football.jpg" alt=""><div class="going"><span class="st"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-lucas.jpg" alt=""></span><span><b>Alex</b> and 2 others are going!</span><span class="gi">{{i:badge-check}}</span></div></div>
+                <div class="meta"><h4>Premier league - Liverpool V Brighton {{i:heart}}</h4><div class="addr">{{i:pin}}@TheGrandArms</div><div class="addr">{{i:calendar}}Sat 7th, 12:30pm-2:30pm</div><div class="tagrow"><span class="tag">Live Sports</span><span class="tag">Football</span></div></div></div>
+            </div>
+            <div class="bnav"><span>{{i:house}}Home</span><span>{{i:users}}Friends</span><span class="on">{{i:ticket}}My Events</span><span>{{i:bell}}Alerts</span><span>{{i:circle-user}}My Profile</span></div><div class="home-ind"></div>
+          </div>
+        </div><span class="tap" id="tap"></span></div></div>
+
+      <div class="floaters" aria-hidden="true" id="floaters">
+        <div class="fl" data-st="0" style="left:calc(50% + var(--pw)*.5 - 36px);top:24%"><span class="stack"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-ellie.jpg" alt=""><img src="assets/av-adam.jpg" alt=""></span><span><b>Alex, Ellie &amp; Adam</b><small>shared new stories</small></span></div>
+        <div class="fl" data-st="0" style="left:calc(50% - var(--pw)*.5 - 120px);top:70%"><span class="ic">{{i:v-live-music}}</span><span><b>Live Jazz at Rouge</b><small>40 Floral Street, London</small></span></div>
+        <div class="fl" data-st="1" style="left:calc(50% + var(--pw)*.5 - 36px);top:30%"><span class="ic">{{i:pin}}</span><span><b>Birmingham</b><small>Venues around you</small></span></div>
+        <div class="fl" data-st="1" style="left:calc(50% - var(--pw)*.5 - 110px);top:72%"><span class="stack"><img src="assets/av-sofia.jpg" alt=""><img src="assets/av-lucas.jpg" alt=""></span><span><b>2 friends nearby</b><small>Visible to friends only</small></span></div>
+        <div class="fl" data-st="2" style="left:calc(50% + var(--pw)*.5 - 36px);top:28%"><span class="ic">{{i:star}}</span><span><b>4.9</b> <span class="stars">{{i:star}}{{i:star}}{{i:star}}{{i:star}}{{i:star}}</span><small>Reviewed by 1956 people</small></span></div>
+        <div class="fl" data-st="2" style="left:calc(50% - var(--pw)*.5 - 120px);top:70%"><span class="ic">{{i:calendar}}</span><span><b>5 events this week 🔥</b><small>The Grand Junction Arms</small></span></div>
+        <div class="fl" data-st="3" style="left:calc(50% + var(--pw)*.5 - 36px);top:22%"><span class="stack"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-lucas.jpg" alt=""><img src="assets/av-jane.jpg" alt=""></span><span><b>Alex and 2 others</b><small>are going</small></span></div>
+        <div class="fl" data-st="3" style="left:calc(50% - var(--pw)*.5 - 110px);top:74%"><span class="ic">{{i:share}}</span><span><b>Invites sent</b><small>John, Jane and Alice</small></span></div>
+        <div class="fl" data-st="4" style="left:calc(50% + var(--pw)*.5 - 36px);top:26%"><span class="ic">{{i:calendar}}</span><span><b>Sat 18th, 9:00pm</b><small>The Eclipse Club</small></span></div>
+        <div class="fl" data-st="4" style="left:calc(50% - var(--pw)*.5 - 110px);top:72%"><span class="ic">{{i:ticket}}</span><span><b>2 plans this week</b><small>Attending and liked, in one list</small></span></div>
+      </div>
+
+      <div class="steps-copy" id="stepsCopy">
+        <div class="step-txt" data-st="0"><div class="eyebrow"><b>01</b>Discover</div><h2 class="gt">Everything on near you, in one feed</h2><p>Browse venues, events and communities around you. Your friends' stories sit right at the top.</p></div>
+        <div class="step-txt" data-st="1"><div class="eyebrow"><b>02</b>Map</div><h2 class="gt">See what's happening on the map</h2><p>Switch to the map to spot bars, pubs and live sport nearby, and see which friends are already out.</p></div>
+        <div class="step-txt" data-st="2"><div class="eyebrow"><b>03</b>Venues</div><h2 class="gt">Know the place before you go</h2><p>Open any venue for its story, location, reviews and the events it's hosting this week.</p></div>
+        <div class="step-txt" data-st="3"><div class="eyebrow"><b>04</b>Invite</div><h2 class="gt">Find, and invite</h2><p>Tap Attend, then invite your friends to enjoy it together. Share a link with anyone who isn't on Venu yet.</p></div>
+        <div class="step-txt" data-st="4"><div class="eyebrow"><b>05</b>My Events</div><h2 class="gt">All your plans in one place</h2><p>Events you're attending and the ones you liked, with who's going and when.</p></div>
+      </div>
+
+      <nav class="rail" id="rail" aria-label="Steps">
+        <button data-jump="0"><span class="num">01</span><span>Discover</span><span class="bar"><i></i></span></button>
+        <button data-jump="1"><span class="num">02</span><span>Map</span><span class="bar"><i></i></span></button>
+        <button data-jump="2"><span class="num">03</span><span>Venues</span><span class="bar"><i></i></span></button>
+        <button data-jump="3"><span class="num">04</span><span>Invite</span><span class="bar"><i></i></span></button>
+        <button data-jump="4"><span class="num">05</span><span>My Events</span><span class="bar"><i></i></span></button>
+      </nav>
+    </div>
+  </section>
+
+  <section class="statement wrap" aria-label="About Venu">
+    <p id="statement">Venu brings the <span class="pic" style="background-image:url(assets/bar.jpg)"></span> venues, <span class="pic" style="background-image:url(assets/club.jpg)"></span> events and <span class="pic av"><img src="assets/av-alex.jpg" alt=""><img src="assets/av-ellie.jpg" alt=""><img src="assets/av-sofia.jpg" alt=""></span> communities around you into one app, so plans with friends come together in a few taps.</p>
+  </section>
+
+  <section class="suggest" aria-labelledby="sg-h">
+    <div class="wrap head center rv">
+      <h2 class="h2 gt" id="sg-h">Get customized suggestions</h2>
+      <p class="lead">Find personalized suggestions tailored to your location, interests and mood with Venu, your go-to app for fun and engaging experiences nearby.</p>
+    </div>
+    <div class="wrap"><div class="trio" id="trio">
+      <div class="flat l" aria-hidden="true"><div class="cv"><div class="scr static">{{use:sb}}<div class="obh">{{i:chev-left}}Preferences</div><div class="stepp"><span><b>Step 4</b>-<span>Step 4</span></span></div>
+        <div class="obt"><h3>What type of person are you?</h3><p>This will help finding people with similar interests.</p></div>
+        <div class="ptype"><div><img src="assets/morning.jpg" alt=""><span>Morning Person</span></div><div class="on"><img src="assets/evening.jpg" alt=""><span>Evening Person</span></div><div><img src="assets/night.jpg" alt=""><span>Night Owl</span></div></div></div></div></div>
+      <div class="flat c"><div class="cv"><div class="scr static">{{use:sb}}<div class="obh">{{i:chev-left}}Preferences</div><div class="stepp"><span><b>Step 4</b>-<span>Step 4</span></span></div>
+        <div class="obt"><h3>What are your interests?</h3><p>Please select your preferences. This will help finding people with similar interests.</p></div>
+        <div class="ichips" id="ichips">
+          <button class="ichip" aria-pressed="false">{{i:v-live-sport}}Live Sport<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-live-music}}Live Music<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-happy-hour}}Happy Hours<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-comedy}}Comedy<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-cafe}}Cafes<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-nightclub}}Nightclubs<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-pub}}Pubs<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-coctail-bar}}Shisha<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-brunch}}Breakfast<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-bar}}Bars<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-fitness}}Fitness<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-live-band}}Concerts<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-restuarant}}Restaurants<span class="x">{{i:close}}</span></button>
+          <button class="ichip" aria-pressed="false">{{i:v-trivia}}Quiz/Trivia<span class="x">{{i:close}}</span></button>
+        </div></div></div></div>
+      <div class="flat r" aria-hidden="true"><div class="cv"><div class="scr static">{{use:sb}}<div class="obh">Choose Location</div><div class="locf">Country / Province / City</div><div class="locmap"><div class="you"><b>You</b><i></i></div></div></div></div></div>
+    </div>
+    <div class="hint"><span>{{i:badge-check}}Tap the interests to try it</span></div></div>
+  </section>
+
+  <section class="cats" aria-labelledby="cat-h">
+    <div class="wrap head center rv"><h2 class="h2 gt" id="cat-h">Whatever you're into</h2><p class="lead">Bars, live sport, comedy or a slow brunch. Filter by the kind of day or night you want.</p></div>
+    <div class="marquee-row"><div class="marquee" id="mq1"></div></div>
+    <div class="marquee-row"><div class="marquee rev" id="mq2" style="--d:56s"></div></div>
+  </section>
+
+  <section class="dl" id="download" aria-labelledby="dl-h">
+    <div class="dl-stage" id="dlStage">
+      <div class="dl-intro" id="dlIntro"><h2 class="h2 gt">Your next plan starts here</h2></div>
+      <div class="vz" id="vz" aria-hidden="true"><svg viewBox="-1 -0.5 30 25"><use href="#vmark"/></svg></div>
+      <div class="dl-card">
+        <div class="dl-left">
+          <div class="appicon"><img src="assets/app-icon.png" alt="Venu app icon"></div>
+          <div><h2 id="dl-h">Download App</h2><p>Discover our app in your favorite store.</p></div>
+          <div class="stores">
+            <a class="store" href="#" data-store="ios" aria-label="Download on the App Store"><svg viewBox="0 0 24 24" fill="#fff"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.76 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.24-.02 2.02-1.12 2.77-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.4-.92-2.42-3.65l.03-.04ZM14.1 5.85c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.1 1.76-.96 2.8 1.01.08 2.05-.52 2.68-1.28Z"/></svg><span><small>Download on the</small><strong>App Store</strong></span></a>
+            <a class="store" href="#" data-store="android" aria-label="Get it on Google Play"><svg viewBox="0 0 24 24"><path d="M3.6 1.8 13.5 12 3.6 22.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2Z" fill="#00D7FE"/><path d="m16.8 8.7-3.3 3.3-9.9-10.2c.1 0 .3-.1.4-.1.3 0 .5.1.8.2l12 6.8Z" fill="#00F076"/><path d="m16.8 15.3-12 6.8c-.3.2-.5.2-.8.2-.1 0-.3 0-.4-.1l9.9-10.2 3.3 3.3Z" fill="#FF3A44"/><path d="M20.4 12c0 .5-.3 1-.8 1.3l-2.8 2-3.3-3.3 3.3-3.3 2.8 2c.5.3.8.8.8 1.3Z" fill="#FFD400"/></svg><span><small>GET IT ON</small><strong>Google Play</strong></span></a>
+          </div>
+        </div>
+        <span class="vline" aria-hidden="true"></span>
+        <div class="qr"><div class="qr-box" id="qr" role="img" aria-label="QR code to download Venu"></div><p>Scan the QR code with your phone to get store directions for your OS.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot"><nav><a href="#">Terms &amp; Conditions</a><i></i><a href="#">Privacy Policy</a></nav><span>© 2026 All rights reserved for Venu</span></footer>
+</main>
+
+<main id="biz" class="view" role="tabpanel" aria-labelledby="tab-biz" hidden>
+  <section class="bhero">
+    <div class="row">
+      <div class="bphone-wrap rv"><div class="phone dark" id="bphone"><div class="glass"><div class="island"></div><div class="cv"><div class="scr static">{{use:scr-venue-body}}</div></div></div></div></div>
+      <div class="btext rv">
+        <h1 class="h1 gt">Promote your business to locals and visitors.</h1>
+        <p class="lead">Venu gives businesses a platform to promote themselves and attract customers with personalized, location-based recommendations, boosting visibility and engagement in local communities.</p>
+        <a class="btn btn-p" href="#contact" style="width:174px">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="analyze">
+    <div class="row">
+      <div class="txt rv"><h2 class="h1 gt">Analyze how your business has been reaching its audience</h2><p class="lead">Analyze business data to uncover insights about customer preferences, location trends and engagement patterns with Venu, your essential tool for understanding and enhancing local experiences.</p></div>
+      <div class="fit" data-w="620" data-h="530"><div class="fit-in"><div class="dash" id="dash" style="height:530px">
+        <div class="dc" style="left:0;top:35px;width:196px;height:278px;transition-delay:.05s">
+          <div class="hd"><h6>Overview</h6><span class="sel">This Month ⌄</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid #eee;padding:4px 0 8px"><span><span style="color:#2FBF4B">▲</span> <span style="font-size:7px;color:var(--muted)">30D Attendance</span><br><b style="font-size:10px;font-weight:500">25,502</b></span><span>55.9%</span></div>
+          <div style="display:flex;justify-content:center;margin-top:10px"><div class="mini-seg"><span class="on">Overview</span><span>Detail</span></div></div>
+          <div class="donut"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" stroke="#eee"/><circle class="arc" cx="50" cy="50" r="42" stroke="#8B3EF8" data-len=".62" data-off="0"/><circle class="arc" cx="50" cy="50" r="42" stroke="#3B9CF6" data-len=".16" data-off=".66"/><circle class="arc" cx="50" cy="50" r="42" stroke="#E5348B" data-len=".1" data-off=".86"/></svg>
+            <div class="lg"><span><i style="background:#8B3EF8"></i>Views<b>2,273</b></span><span><i style="background:#3B9CF6"></i>Likes<b>326</b></span><span><i style="background:#E5348B"></i>Shares<b>155</b></span></div></div>
+        </div>
+        <div class="dc" style="left:211px;top:0;width:196px;height:127px;transition-delay:.15s">
+          <div class="hd"><h6>Regions</h6><div class="mini-seg"><span class="on">Cities</span><span>Suburbs</span></div></div>
+          <div class="reg"><span>Sydney</span><span class="tr"><i style="width:68%"></i></span><em>55.99%</em></div>
+          <div class="reg"><span>Melbourne</span><span class="tr"><i style="width:32%"></i></span><em>23.02%</em></div>
+          <div class="reg"><span>Hobart</span><span class="tr"><i style="width:20%"></i></span><em>17.23%</em></div>
+          <div class="reg"><span>Other</span><span class="tr"><i style="width:6%"></i></span><em>3.76%</em></div>
+        </div>
+        <div class="dc" style="left:211px;top:150px;width:196px;height:162px;transition-delay:.25s">
+          <div class="hd" style="margin-bottom:2px"><h6 style="font-size:9px">Stats Heading</h6></div>
+          <div class="bars">
+            <div><i style="height:72%;background:#6C3CF0"></i><i style="height:12%;background:#F7706E"></i><i style="height:34%;background:#6CC8F5"></i></div>
+            <div><i style="height:32%;background:#6C3CF0"></i><i style="height:84%;background:#F7706E"></i><i style="height:34%;background:#6CC8F5"></i></div>
+            <div><i style="height:16%;background:#6C3CF0"></i><i style="height:20%;background:#F7706E"></i><i style="height:6%;background:#6CC8F5"></i></div>
+            <div><i style="height:8%;background:#6C3CF0"></i><i style="height:10%;background:#F7706E"></i><i style="height:4%;background:#6CC8F5"></i></div>
+            <div><i style="height:40%;background:#6C3CF0"></i><i style="height:44%;background:#F7706E"></i><i style="height:3%;background:#6CC8F5"></i></div>
+            <div><i style="height:3%;background:#6C3CF0"></i><i style="height:4%;background:#F7706E"></i><i style="height:2%;background:#6CC8F5"></i></div>
+          </div>
+          <div class="xl"><span>18-24</span><span>25-34</span><span>35-44</span><span>45-54</span><span>55-64</span><span>65+</span></div>
+          <div class="lgd"><span><i style="background:#6C3CF0"></i>Males</span><span><i style="background:#F7706E"></i>Females</span><span><i style="background:#6CC8F5"></i>Other</span></div>
+        </div>
+        <div class="dc" style="left:102px;top:329px;width:196px;height:181px;transition-delay:.35s">
+          <div class="hd" style="margin-bottom:6px"><h6 style="font-size:9px">Audiences</h6></div>
+          <div class="rate sm"><b>4.9</b>Reviewed by 1956 people<span class="stars">{{i:star}}{{i:star}}{{i:star}}{{i:star}}</span></div>
+          <div class="subh"><b style="font-weight:500">New Customers <span>(221)</span></b><em>View All</em></div>
+          <div class="cust"><div><img src="assets/av-alex.jpg" alt=""><span><b style="font-weight:500">Alex Benjamin</b><small>@alex_benjamin11</small></span></div><div><img src="assets/av-lucas.jpg" alt=""><span><b style="font-weight:500">Adam R.</b><small>@adamrob88</small></span></div></div>
+          <div class="subh"><b style="font-weight:500">Returning Customers <span>(163)</span></b><em>View All</em></div>
+          <div class="cust"><div><img src="assets/av-ellie.jpg" alt=""><span><b style="font-weight:500">Ellie Soronio</b><small>@ellie7soronio</small></span></div><div><img src="assets/av-john.jpg" alt=""><span><b style="font-weight:500">Alex Benja…</b><small>@alex_benj</small></span></div></div>
+        </div>
+        <div class="dc" style="left:424px;top:150px;width:196px;transition-delay:.45s">
+          <div class="hd" style="margin-bottom:2px"><h6>Audience</h6>{{i:chart:gauge}}</div>
+          <div class="aud-sec"><b>Attendance</b><div class="aud-g"><div>Men<strong>2,502<small>55.9%</small></strong></div><div>Female<strong>2,502<small>44.1%</small></strong></div><div>Other<strong>2,502<small>44.1%</small></strong></div></div></div>
+          <div class="aud-sec"><b>View</b><div class="aud-g"><div>Men<strong>2,502<small>55.9%</small></strong></div><div>Female<strong>2,502<small>44.1%</small></strong></div><div>Other<strong>2,502<small>44.1%</small></strong></div></div></div>
+          <div class="aud-sec"><b>Like</b><div class="aud-g"><div>Men<strong>2,502<small>55.9%</small></strong></div><div>Female<strong>2,502<small>44.1%</small></strong></div><div>Other<strong>2,502<small>44.1%</small></strong></div></div></div>
+          <div class="aud-sec"><b>Share</b><div class="aud-g"><div>Men<strong>2,502<small>55.9%</small></strong></div><div>Female<strong>2,502<small>44.1%</small></strong></div><div>Other<strong>2,502<small>44.1%</small></strong></div></div></div>
+          <div class="aud-sec"><b>Other</b><div class="aud-g"><div>Avg. Age<strong>24 yrs</strong></div></div></div>
+        </div>
+      </div></div></div>
+    </div>
+  </section>
+
+  <section class="create">
+    <div class="wrap head center rv"><h2 class="h2 gt">Create events</h2><p class="lead">Create events in 2 simple steps</p></div>
+    <div class="wrap"><div class="duo" id="duo">
+      <div class="bflat a"><div class="cv"><div class="scr static">
+        <div class="bh"><svg class="lg" viewBox="-1 0 139 24"><use href="#logo"/></svg><span class="psw"><b>GRAND<br>JNCT</b>{{i:chev-left:dn2}}</span></div>
+        <div class="tabs"><span class="on">Active Events</span><span>Drafts</span></div>
+        <div style="padding:16px 16px 0"><div class="erow"><img src="assets/dj.jpg" alt=""><div class="x"><h4>WAX Club</h4><div class="m">{{i:users}}60 <span>people are attending</span></div><div class="m">{{i:calendar}}Sat 7th, 2:30pm-7:30pm</div></div>{{i:chev-left:chev}}</div></div>
+        <span class="fab">{{i:close:plus}}</span>
+        <div class="bnav b"><span>{{i:dash}}Home</span><span class="on">{{i:party}}Events</span><span>{{i:megaphone}}Announce</span><span>{{i:bolt}}Setting</span></div>
+      </div></div></div>
+      <div class="bflat b"><div class="cv"><div class="scr static">
+        <div class="cfh">{{i:chev-left}}<span style="font-size:14px">Create Event</span><svg class="i" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round"><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14"/></svg></div>
+        <div class="stepp"><span><b>Step 1</b>-<span>Step 2</span></span></div>
+        <div class="blk"><h6>Add Event Images</h6><div class="imgs"><div><img src="assets/venue-thumb.jpg" alt="">{{i:circle-x}}</div><div><img src="assets/venue-thumb.jpg" alt="">{{i:circle-x}}</div></div><div class="upm">{{i:close:plus2}}Upload More</div></div>
+        <div class="blk"><div class="ufld"><small>Event Title</small><div>The Eclipse Club</div></div><div class="ufld"><small>Date</small><div>18/08/2024{{i:cal3}}</div></div><div class="u2"><div class="ufld"><small>Start Time</small><div>9:00 AM{{i:clock}}</div></div><div class="ufld"><small>End Time</small><div>10:00 PM{{i:clock}}</div></div></div></div>
+        <div class="blk" style="display:flex;justify-content:space-between;align-items:center"><div style="display:flex;gap:8px">{{i:clock-plus}}<div><b style="font-weight:500;font-size:16px">Repeating event</b><div style="font-size:12px">You can customize repeating schedule</div></div></div>{{i:chev-left:chev}}</div>
+        <div class="nextbar"><span>Next</span></div>
+      </div></div></div>
+    </div></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap head rv"><h2 class="h2 gt">Contact us to become a part of our community</h2><p class="lead">Submit your request to become one of our early business account users and enjoy exclusive benefits.</p></div>
+    <form class="cform wrap rv" id="cform" novalidate>
+      <div class="fld"><label for="c-name">Full Name</label><input id="c-name" name="name" autocomplete="name" placeholder="John Doe" required></div>
+      <div class="fld"><label for="c-contact">Email / Phone No (with country code)</label><input id="c-contact" name="contact" autocomplete="email" placeholder="you@business.com or +44 7700 900123" required></div>
+      <p class="ferr" id="cerr" role="alert"></p>
+      <button class="btn btn-p" type="submit">Submit Request</button>
+      <div class="done-msg" role="status">{{i:badge-check}}<b>Request received</b><span style="font-size:14px;color:var(--label)">Thanks! We'll reach out to <span id="c-echo"></span> about early business access.</span></div>
+    </form>
+  </section>
+
+  <footer class="foot"><nav><a href="#">Terms &amp; Conditions</a><i></i><a href="#">Privacy Policy</a></nav><span>© 2026 All rights reserved for Venu</span></footer>
+</main>
